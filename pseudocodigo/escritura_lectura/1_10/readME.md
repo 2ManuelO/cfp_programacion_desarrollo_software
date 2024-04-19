@@ -1,5 +1,5 @@
 <h2>Ejercicio 1 </h2> 
-<h3>Calculadora Simple</3>
+<h3>Calculadora Simple</h3>
 <pre>
     <code>
         Algoritmo Ejercicio_1
@@ -19,7 +19,7 @@
 
 
 <h2>Ejercicio 2 </h2> 
-<h3>Area y Perimetro</3>
+<h3>Area y Perimetro</h3>
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -39,7 +39,7 @@
 
 
 <h2>Ejercicio 3 </h2> 
-<h3>Promedio de tres números</3>
+<h3>Promedio de tres números</h3>
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -61,7 +61,7 @@
 
 
 <h2>Ejercicio 4 </h2> 
-<h3>Conversión de temperatura</3>
+<h3>Conversión de temperatura</h3>
 <pre>
     <code>
         Algoritmo Ejercicio_4
@@ -87,7 +87,7 @@
 
 
 <h2>Ejercicio 5 </h2> 
-<h3>Edad en Dias</3>
+<h3>Edad en Dias</h3>
 <pre>
     <code>
         Algoritmo Ejercicio_5
@@ -102,7 +102,7 @@
 
 
 <h2>Ejercicio 6 </h2> 
-<h3>Costo en llamadas Telefónicas</3>
+<h3>Costo en llamadas Telefónicas</h3>
 <pre>
     <code>
         Algoritmo Ejercicio_6
@@ -117,7 +117,7 @@
 
 
 <h2>Ejercicio 7 </h2> 
-<h3>Cálculo de Descuento</3>
+<h3>Cálculo de Descuento</h3>
 <pre>
     <code>
         Algoritmo Ejercicio_7
@@ -133,7 +133,7 @@
 
 
 <h2>Ejercicio 8 </h2> 
-<h3>Dias en Segundos</3>
+<h3>Dias en Segundos</h3>
 <pre>
     <code>
         Algoritmo Ejercicio_8
@@ -147,7 +147,7 @@
 
 
 <h2>Ejercicio 9 </h2> 
-<h3>Circuferencia y Área del circulo</3>
+<h3>Circuferencia y Área del circulo</h3>
 <pre>
     <code>
         Algoritmo Ejercicio_9
@@ -162,7 +162,7 @@
 
 
 <h2>Ejercicio 10 </h2> 
-<h3>Minutos a Horas minutos</3>
+<h3>Minutos a Horas minutos</h3>
 <pre>
     <code>
         Algoritmo Ejercicio_10
