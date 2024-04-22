@@ -1,4 +1,4 @@
-## [Ejercicio dle 1 al 10](./1_10)
+## [Ejercicio de 1 al 10](./1_10)
 
     1. Calculadora Simple: Solicitar dos números al usuario, sumarlos, restarlos,
     multiplicarlos y dividirlos, luego mostrar los resultados.
