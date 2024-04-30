@@ -1,0 +1,132 @@
+#buscador{
+    display: flex;
+    flex-direction: row;
+}
+
+.g{
+    color: rgb(78, 78, 240);
+}
+
+.o{
+    color: rgb(241, 52, 52);
+}
+
+.o2{
+    color: rgb(226, 196, 22);
+}
+
+.g2{
+    color: rgb(78, 78, 240);
+}
+
+.l{
+    color: green;
+}
+
+.e{
+    color: rgb(241, 52, 52);
+}
+
+#opciones_busqueda{
+    margin-top: -20px;
+}
+
+.nombre{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#us{
+    display: flex;
+    flex-direction: row;
+}
+
+.noti{
+    width: 10px;
+    height: 10px;
+    margin-right:17px;
+}
+
+.noti2{
+    margin-left: 10px;
+}
+
+#lista_opciones{
+    margin-left: -45px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.li_opciones{
+    margin-left: 5px;
+}
+
+#lista_usuario{
+    margin-left: -40px;
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.li_usuario{
+    margin-left: 5px;
+}
+
+#segundo{
+    font-size: large;
+}
+
+#comentarios{
+    list-style: none;
+    margin-left: -50px;
+}
+
+.li_comentario{
+    margin: 10px;
+}
+
+
+/*sugerencias y siguiente pagina*/
+
+#lista_sugerencias{
+    display: flex;
+    flex-direction: row;
+    margin-left: -40px;
+}
+
+.sugerencia{
+    list-style: none;
+}
+
+#sig_pagina{
+    display: flex;
+    list-style: none;
+    margin-left: -35px;
+}
+
+#lista_numeros{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: -35px;
+}
+
+
+.num{
+    margin: 3px;
+}
+
+/*footer*/
+#pie{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 0px;
+}
+
+.foot{
+    margin: 3px;
+}

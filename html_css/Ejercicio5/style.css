@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+}
+
+/* Imagenes */
+main {
+    background-image: url(lobo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+} 
+
+#contenedor-img2 {
+    background-image: url(gato2.jpg);
+}
+
+#contenedor-img3 {
+    background-image: url(gato.jpg);
+}
+
+#contenedor-img4 {
+    background-image: url(gato3.jpg);
+}
+
+/*Configuraciones imgenes en general*/
+
+#titulo-img1, #contenedor-img2, #contenedor-img3, #contenedor-img4 {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*texto dentro de las imagenes */
+
+.seccion{
+    background-color: rgb(24, 24, 117);
+    color: rgb(240, 237, 237);
+    height: 50vh;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:inset 5px 5px 100px;
+}
+
+
+.texto{
+    background-color:  rgb(33, 33, 112);
+    color: aliceblue;
+    text-align: center;
+    margin: -50%;
+    box-shadow: inset 1px 1px 10px whitesmoke;
+}
+

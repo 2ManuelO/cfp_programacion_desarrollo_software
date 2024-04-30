@@ -1,0 +1,113 @@
+/*Diseño del body */
+body {
+    background-color: rgb(255, 235, 205);
+}
+
+
+/* Diseño del encabezado*/
+#encabezado{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: -8px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo{
+    color: rgb(197, 154, 47);
+}
+
+
+/*Diseño del la barra de navegaciòn*/
+.navegacion{
+    margin: -8px;
+    height: 20px;
+    margin-bottom: 0px;
+    background-color: rgb(197, 154, 47);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#lista_navegacion{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+/*Diseño del contenido*/
+.principal{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 440px;
+    align-items: center;
+    border-bottom: 10px;
+}
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 10px;
+}
+
+
+.parrafo_principal{
+    margin: 2%;
+    font-size: medium;
+    text-align: justify;
+    
+}
+
+
+.lado{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    margin: -8px;
+    
+}
+
+.parrafo_secundario{
+    font-family: fantasy;
+    color: rgb(197, 154, 47);
+    margin: 20%;
+}
+
+
+/*Diseño del pie de pagina*/
+
+.pie{
+    background-color: black;
+    border-top-style: outset;
+    border-color: rgb(190, 149, 46);
+    border-width: 17px;
+    margin: -8px;
+    margin-top: 0px;
+}
+
+.gato{
+    width: 10%;
+    margin-bottom: -5px;
+}
+
+
+/*Animaciòn*/
+.lista_navegacion :hover{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    color: rgb(197, 154, 47);
+}

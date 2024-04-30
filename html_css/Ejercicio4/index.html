@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="padre">
+
+        <head>
+            <h1>Good Vibes Form</h1>
+        </head>
+        <main id="contenedor_principal">
+            <h2>Tell us something postive that happened to you today.</h2>
+            <form class="formulario">
+                <div id="hijo">
+                    <div class="medio">
+                        <div class="texto">
+                            <label for="name" class="tex">Name </label>
+                        </div>
+                        <div class="ingrese">
+                            <input type="text" name="name" id="texto"><br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="medio">
+                        <div class="texto">
+                            <label for="email" class="tex">Email</label>
+                        </div>
+                        <div class="ingrese">
+                            <input type="email" name="mail" id="ingresar"><br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="medio">
+                        <div class="texto">
+                            <label for="number" class="tex">On a scale of 1_10, how good was it</label>
+                        </div>
+                        <div class="ingrese">
+                            <input type="number" name="numero" id="numero"><br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="medio">
+                        <div class="texto">
+                            <label for="text" class="tex">Where did it happen?</label>
+                        </div>
+                        <div class="ingrese">
+                            <select name="text" id="opciones">
+                                <option value="text">at home</option><br>
+                                <option value="text">at park</option><br>
+                                <option value="text">at school</option><br>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="medio">
+                        <div class="texto">
+                            <label for="text" class="tex">At what time of day did it happen?</label>
+                        </div>
+                        <div class="ingrese">
+                            <div>
+                                <input type="checkbox" checked="checked">
+                                <span class="checked">morning</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark">Afternoon</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark">Evening</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="medio">
+                    <div class="texto">
+                        <label for="text" class="tex"> What emotions did you experience?<br>
+                            (Select all that apply)</label>
+                    </div>
+                    <div class="ingrese">
+                        <div>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark">Excited</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark">Humbled</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark">Elated</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark">loved</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark">Enthusiastic</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="medio">
+                    <div class="texto">
+                        <label for="text" class="tex">Please describe your positive experience.</label>
+                    </div>
+                    <div class="ingrese">
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="2"></textarea>
+                    </div>
+                </div>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

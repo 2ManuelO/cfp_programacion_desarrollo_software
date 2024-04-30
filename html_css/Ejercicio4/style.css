@@ -1,0 +1,57 @@
+body{
+    background-color: skyblue;
+}
+
+#padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Titulo*/
+
+#contenedor_principal{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+/*Formulario*/
+.formulario{
+    text-align: center;
+}
+
+#hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    text-align: start;
+}
+
+.texto{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-right: 5px;
+}
+
+.tex{
+    width: 250px;
+    text-align: end;
+}
+
+.ingrese{
+    width: 500px;
+}

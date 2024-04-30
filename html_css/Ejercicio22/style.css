@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 55vh;
+    background-color: aquamarine;
+}
+
+#virus{
+    width: 100vw;
+    height: 3vh;
+    font-size: 60%;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(222, 213, 250);
+}
+
+#login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 5vh;
+}
+
+.lista-nav1, .lista-nav2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-nav2{
+    background-color: rgb(210, 210, 210, 0.6);
+    width: 30vw;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+}
+
+.barra-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2%;
+    background-color: white;
+    height: 12vh;
+    align-items: center;
+}
+
+#reservaciones{
+    width: 100vw;
+    height: 35vh;
+    background-color: rgb(222, 213, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservaciones{
+    background-color: rgb(63, 7, 141);
+    width: 85%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+main{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 210, 210, 0.7);;
+}
+
+#lugar-salida{
+    align-content: center;
+    width: 90vw;
+    height: 7vh;
+    font-size: 2vh;
+}
+
+.sugerencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 35vh;
+    gap: 2%;
+}
+
+.viajes{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
