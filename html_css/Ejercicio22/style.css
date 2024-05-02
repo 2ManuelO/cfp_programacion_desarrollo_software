@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     width: 100vw;
     height: 55vh;
     background-color: aquamarine;
 }
 
-#virus{
+#virus {
     width: 100vw;
     height: 3vh;
     font-size: 60%;
@@ -18,7 +18,7 @@ header{
     background-color: rgb(222, 213, 250);
 }
 
-#login{
+#login {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,7 +26,14 @@ header{
     height: 5vh;
 }
 
-.lista-nav1, .lista-nav2 {
+#logo {
+    width: 25px;
+    height: 25px;
+}
+
+
+.lista-nav1,
+.lista-nav2 {
     display: flex;
     flex-direction: row;
     gap: 5%;
@@ -35,24 +42,59 @@ header{
     justify-content: center;
 }
 
-.lista-nav2{
+.lista-nav1 {
+    color: rgb(89, 0, 214);
+    font-family: sans-serif, Helvetica;
+    font-size: larger;
+}
+
+.lista-nav2 {
     background-color: rgb(210, 210, 210, 0.6);
     width: 30vw;
     height: 100%;
     border-bottom-left-radius: 20px;
 }
 
-.barra-nav{
+.lista-sesion {
     display: flex;
     flex-direction: row;
+}
+
+#icon-sesion1,
+#icon-sesion2,
+#icon-sesion3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sesion {
+    font-size: 1vw;
+}
+
+.barra-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     list-style: none;
-    gap: 2%;
+    gap: 1%;
     background-color: white;
     height: 12vh;
+}
+
+i {
+    width: 4vw;
+    height: 4vw;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-#reservaciones{
+#reservaciones {
     width: 100vw;
     height: 35vh;
     background-color: rgb(222, 213, 250);
@@ -61,31 +103,36 @@ header{
     justify-content: center;
 }
 
-.reservaciones{
+.reservaciones {
     background-color: rgb(63, 7, 141);
     width: 85%;
     height: 80%;
     border-radius: 8px;
+    color: white;
 }
 
-main{
+
+/* Principal-------------------------------------------- */
+main {
     width: 100vw;
     height: 45vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(210, 210, 210, 0.7);;
+    background-color: rgba(194, 193, 193, 0.767);
 }
 
-#lugar-salida{
+#lugar-salida {
     align-content: center;
     width: 90vw;
     height: 7vh;
     font-size: 2vh;
 }
 
-.sugerencias{
+
+/* footer------------------------------------------------------------- */
+.sugerencias {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -95,12 +142,51 @@ main{
     gap: 2%;
 }
 
-.viajes{
-    background-color: aqua;
+.viajes {
+    background-color: white;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    border-radius: 5px;
+
 }
 
+.imagen-sugerencia {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#sugerencias1 {
+    background-image: url(paisaje.jpg);
+    background-size: 35vw;
+    background-position-y: 90%;
+}
+
+#sugerencias2 {
+    background-image: url(atardecer.jpg);
+    background-size: 35vw;
+    background-position-y: 60%;
+}
+
+#sugerencias3 {
+    background-image: url(montaña.jpg);
+    background-size: 30vw;
+    background-position-y: 30%;
+}
+
+#sugerencias4 {
+    background-image: url(risco.jpg);
+    background-size: 30vw;
+}
+
+.vuela-a {
+    width: 100%;
+    height: 50%;
+}

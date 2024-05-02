@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio1</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,13 +22,22 @@
         <!-- cuentas de usuario -->
         <div id="login">
             <ul class="lista-nav1">
-                <li id="logo"></li>
-                <li>despegar</li>
+                <li><img id="logo" src="logo-despegar.jpg" alt=""></li>
+                <li class="despegar">despegar</li>
             </ul>
             <ul class="lista-nav2">
-                <li>Iniciar Sesión</li>
-                <li>Mis viajes</li>
-                <li>Ayuda</li>
+                <li class="lista-sesion">
+                    <i class="bi bi-person-fill" id="icon-sesion1"></i>
+                    <h3 class="sesion">Iniciar Sesión</h3>
+                </li>
+                <li class="lista-sesion">
+                    <i class="bi bi-suitcase-lg-fill" id="icon-sesion2"></i>
+                    <h3 class="sesion">Mis viajes</h3>
+                </li>
+                <li class="lista-sesion">
+                    <i class="bi bi-question-circle-fill" id="icon-sesion3"></i>
+                    <h3 class="sesion">Ayuda</h3>
+                </li>
             </ul>
         </div>
 
@@ -33,7 +45,7 @@
         <nav id="barra-nav">
             <ul class="barra-nav">
                 <li>
-                    <div></div>
+                    <div><i class="bi bi-building"></i></div>
                     <div>Alojamientos</div>
                 </li>
                 <li>
@@ -45,27 +57,27 @@
                     <div>Paquetes</div>
                 </li>
                 <li>
-                    <div></div>
+                    <div><i class="bi bi-house"></i></div>
                     <div>Alquileres</div>
                 </li>
                 <li>
-                    <div></div>
+                    <div><i class="bi bi-bicycle"></i></div>
                     <div>Actividades</div>
                 </li>
                 <li>
-                    <div></div>
+                    <div><i class="bi bi-car-front"></i></div>
                     <div>Autos</div>
                 </li>
                 <li>
-                    <div></div>
+                    <div><i class="bi bi-person-arms-up"></i></div>
                     <div>Disney</div>
                 </li>
                 <li>
-                    <div></div>
+                    <div><i class="bi bi-person-arms-up"></i></div>
                     <div>Asistencias</div>
                 </li>
                 <li>
-                    <div></div>
+                    <div><i class="bi bi-bus-front"></i></div>
                     <div>Translados</div>
                 </li>
             </ul>
@@ -73,7 +85,54 @@
 
         <!-- Reservaciones----------------------------------------- -->
         <div id="reservaciones">
-            <div class="reservaciones"></div>
+            <div class="reservaciones">
+                <h2>Vuelos con reservas flexibles</h2>
+                <p>Encuentra pasajes aéreos con la posibilidad de cambiar las fexhas de vuelo.</p>
+                <div class="plan-vuelos">
+                    <div>
+                        <input type="radio" name="plan" id="ida-vuelta"><label for="ida-vuelta">Ida y vuelta</label>
+                        <input type="radio" name="plan" id="ida"><label for="ida-vuelta">Solo ida</label>
+                        <input type="radio" name="plan" id="multidestino"><label for="ida-vuelta">Multidestino</label>
+                    </div>
+                    <div>
+                        <div class="origen">
+                            <h2>ORIGEN</h2>
+                            <div>
+                                <i class="bi bi-crosshair"></i>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div>
+                            <h2>DESTINO</h2>
+                            <div>
+                                <i class="bi bi-geo-fill"></i>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div>
+                            <h2>FECHAS</h2>
+                            <div>
+                                <input type="text">
+                                <label for="Ida"></label>
+                            </div>
+                            <div>
+                                <input type="text">
+                                <label for="Vuelta"></label>
+                            </div>
+                            <input type="radio" name="sin-desicion" id="desicion"><label for="desicion">todavia no he decidido la fecha</label>
+                        </div>
+                        <div>
+                            <h2>PASAJEROS Y CLASES</h2>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <button>
+                            <p>Buscar</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -85,29 +144,29 @@
         </div>
         <div class="sugerencias">
             <div class="viajes">
-                <div></div>
-                <div>
+                <div class="imagen-sugerencia" id="sugerencias1"></div>
+                <div class="vuela-a">
                     <h3>Vuelos</h3>
                     <h2>Viaja a Guayaquil</h2>
                 </div>
             </div>
             <div class="viajes">
-                <div></div>
-                <div>
+                <div class="imagen-sugerencia" id="sugerencias2"></div>
+                <div class="vuela-a">
                     <h3>Vuelos</h3>
                     <h2>Viaja a Manta</h2>
                 </div>
             </div>
             <div class="viajes">
-                <div></div>
-                <div>
+                <div class="imagen-sugerencia" id="sugerencias3"></div>
+                <div class="vuela-a">
                     <h3>Vuelos</h3>
                     <h2>Viaja a Cuenca</h2>
                 </div>
             </div>
             <div class="viajes">
-                <div></div>
-                <div>
+                <div class="imagen-sugerencia" id="sugerencias4"></div>
+                <div class="vuela-a">
                     <h3>Vuelos</h3>
                     <h2>Viaja a Miami</h2>
                 </div>
