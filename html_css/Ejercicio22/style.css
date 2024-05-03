@@ -5,8 +5,7 @@
 
 header {
     width: 100vw;
-    height: 55vh;
-    background-color: aquamarine;
+    height: 65vh;
 }
 
 #virus {
@@ -58,6 +57,12 @@ header {
 .lista-sesion {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    gap: 5%;
+}
+
+#ayuda{
+    margin-left: -6%;
 }
 
 #icon-sesion1,
@@ -80,11 +85,13 @@ header {
     gap: 1%;
     background-color: white;
     height: 12vh;
+    width: 1vw;
+    gap: 50%;
 }
 
 i {
-    width: 4vw;
-    height: 4vw;
+    width: 2vw;
+    height: 2vw;
 }
 
 li {
@@ -94,9 +101,15 @@ li {
     align-items: center;
 }
 
+.li-nav{
+    width: 1000%;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
 #reservaciones {
     width: 100vw;
-    height: 35vh;
+    height: 45vh;
     background-color: rgb(222, 213, 250);
     display: flex;
     align-items: center;
@@ -113,6 +126,10 @@ li {
 
 
 /* Principal-------------------------------------------- */
+.margen{
+    margin: 10px;
+}
+
 main {
     width: 100vw;
     height: 45vh;
@@ -121,6 +138,11 @@ main {
     align-items: center;
     justify-content: center;
     background-color: rgba(194, 193, 193, 0.767);
+    gap: 10px;
+}
+
+.titulo-vuelos{
+    font-size: 2vw;
 }
 
 #lugar-salida {
@@ -130,6 +152,101 @@ main {
     font-size: 2vh;
 }
 
+.plan-vuelos{
+    width: 100%;   
+    gap: 10%; 
+}
+
+.destinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.datos{
+    width: 17vw;
+    height: 100%;
+}
+
+.titulo-formulario{
+    font-size: 1vw;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.inputs{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:95%;
+    height: 3vw;
+    border-radius: 6px;
+}
+
+.input{
+    width: 60%;
+    border-style: none;
+}
+
+input{
+    font-size: 1vw;
+}
+
+.fechas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#fechas{
+    gap: 2%;
+}
+
+i{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-buscar{
+    width: 15%;
+    height: 5vw;
+    background-color: transparent;
+    border-style: none;
+}
+
+.formulario-buscar p{
+    background-color: orange;
+    border-radius: 24px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    color: white;
+}
+
+#lupa{
+    color: white;
+}
+
+.texto{
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    font-size: 1vw;
+    vertical-align: middle;
+}
+
+input{
+    vertical-align: middle;
+}
 
 /* footer------------------------------------------------------------- */
 .sugerencias {

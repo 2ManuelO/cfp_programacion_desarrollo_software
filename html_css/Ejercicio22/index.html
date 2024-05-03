@@ -34,7 +34,7 @@ https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
                     <i class="bi bi-suitcase-lg-fill" id="icon-sesion2"></i>
                     <h3 class="sesion">Mis viajes</h3>
                 </li>
-                <li class="lista-sesion">
+                <li class="lista-sesion" id="ayuda">
                     <i class="bi bi-question-circle-fill" id="icon-sesion3"></i>
                     <h3 class="sesion">Ayuda</h3>
                 </li>
@@ -44,37 +44,37 @@ https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
         <!-- Barra de navegación------------------------------------- -->
         <nav id="barra-nav">
             <ul class="barra-nav">
-                <li>
+                <li class="li-nav">
                     <div><i class="bi bi-building"></i></div>
                     <div>Alojamientos</div>
                 </li>
-                <li>
+                <li class="li-nav">
                     <div><i class="bi bi-airplane-engines-fill"></i></div>
                     <div>Vuelos</div>
                 </li>
-                <li>
+                <li class="li-nav">
                     <div><i class="bi bi-box2-fill"></i></div>
                     <div>Paquetes</div>
                 </li>
-                <li>
+                <li class="li-nav">
                     <div><i class="bi bi-house"></i></div>
                     <div>Alquileres</div>
                 </li>
-                <li>
+                <li class="li-nav">
                     <div><i class="bi bi-bicycle"></i></div>
                     <div>Actividades</div>
                 </li>
-                <li>
+                <li class="li-nav">
                     <div><i class="bi bi-car-front"></i></div>
                     <div>Autos</div>
                 </li>
-                <li>
+                <li class="li-nav">
                     <div><i class="bi bi-person-arms-up"></i></div>
                     <div>Disney</div>
                 </li>
-                <li>
-                    <div><i class="bi bi-person-arms-up"></i></div>
-                    <div>Asistencias</div>
+                <li class="li-nav">
+                    <div><i class="bi bi-bandaid-fill"></i></div>
+                        <div>Asistencias</div>
                 </li>
                 <li>
                     <div><i class="bi bi-bus-front"></i></div>
@@ -86,50 +86,66 @@ https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
         <!-- Reservaciones----------------------------------------- -->
         <div id="reservaciones">
             <div class="reservaciones">
-                <h2>Vuelos con reservas flexibles</h2>
-                <p>Encuentra pasajes aéreos con la posibilidad de cambiar las fexhas de vuelo.</p>
-                <div class="plan-vuelos">
-                    <div>
-                        <input type="radio" name="plan" id="ida-vuelta"><label for="ida-vuelta">Ida y vuelta</label>
-                        <input type="radio" name="plan" id="ida"><label for="ida-vuelta">Solo ida</label>
-                        <input type="radio" name="plan" id="multidestino"><label for="ida-vuelta">Multidestino</label>
-                    </div>
-                    <div>
-                        <div class="origen">
-                            <h2>ORIGEN</h2>
-                            <div>
-                                <i class="bi bi-crosshair"></i>
-                                <input type="text">
-                            </div>
-                        </div>
+                <div class="margen">
+                    <h2 class="titulo-vuelos">Vuelos con reservas flexibles</h2>
+                    <p class="texto">Encuentra pasajes aéreos con la posibilidad de cambiar las fechas de vuelo.</p>
+                    <div class="plan-vuelos">
                         <div>
-                            <h2>DESTINO</h2>
-                            <div>
-                                <i class="bi bi-geo-fill"></i>
-                                <input type="text">
-                            </div>
+                            <input type="radio" name="plan" id="ida-vuelta"><label for="ida-vuelta" class="texto">Ida y
+                                vuelta</label>
+                            <input type="radio" name="plan" id="ida"><label for="ida-vuelta" class="texto">Solo
+                                ida</label>
+                            <input type="radio" name="plan" id="multidestino"><label for="ida-vuelta"
+                                class="texto">Multidestino</label>
                         </div>
-                        <div>
-                            <h2>FECHAS</h2>
-                            <div>
-                                <input type="text">
-                                <label for="Ida"></label>
+                        <div class="destinos">
+                            <div class="datos">
+                                <h2 class="titulo-formulario">ORIGEN</h2>
+                                <div class="inputs">
+                                    <i class="bi bi-crosshair"></i>
+                                    <input type="text" placeholder="Quito, Ecuador" class="input">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text">
-                                <label for="Vuelta"></label>
+                            <div class="datos">
+                                <h2 class="titulo-formulario">DESTINO</h2>
+                                <div class="inputs">
+                                    <i class="bi bi-geo-fill"></i>
+                                    <input type="text" placeholder="Ingresa hacia donde viajaras" class="input">
+                                </div>
                             </div>
-                            <input type="radio" name="sin-desicion" id="desicion"><label for="desicion">todavia no he decidido la fecha</label>
+                            <div class="datos">
+                                <h2 class="titulo-formulario">FECHAS</h2>
+                                <div class="fechas" id="fechas">
+                                    <div class="inputs">
+                                        <i class="bi bi-calendar-event"></i>
+                                        <input type="text" placeholder="Ida" class="input">
+                                    </div>
+                                    <div class="inputs">
+                                        <i class="bi bi-calendar-event"></i>
+                                        <input type="text" placeholder="Vuelta" class="input">
+                                    </div>
+                                </div>
+                                <input type="radio" name="sin-desicion" id="desicion"><label for="desicion"
+                                    class="texto">todavia no
+                                    he decidido la fecha
+                                </label>
+                            </div>
+                            <div class="datos">
+                                <h2 class="titulo-formulario">PASAJEROS Y CLASES</h2>
+                                <div class="inputs">
+                                    <i class="bi bi-file-person-fill"></i>
+                                    <input type="text" placeholder="1 persona, economico" class="input">
+                                </div>
+                            </div>
+                            <button class="formulario-buscar">
+                                <p class="inputs">
+                                    <i class="bi bi-search" id="lupa"></i>
+                                    Buscar
+                                </p>
+                            </button>
                         </div>
-                        <div>
-                            <h2>PASAJEROS Y CLASES</h2>
-                            <div>
-                                <input type="text">
-                            </div>
-                        </div>
-                        <button>
-                            <p>Buscar</p>
-                        </button>
+                        <input type="radio" name="mayores" id="mayores">
+                        <label for="mayores" class="texto">Personas mayores o con discapidad</label>
                     </div>
                 </div>
             </div>
