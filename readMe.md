@@ -28,3 +28,5 @@
 ## [Ejercicio21](./html_css/Ejercicio21/)
 ## [Ejercicio22](./html_css/Ejercicio22/)
 ## [Ejercicio23](./html_css/Ejercicio23/)
+## [Ejercicio24](./html_css/Ejercicio24//)
+
