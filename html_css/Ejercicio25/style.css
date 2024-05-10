@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(227, 225, 225);
+    background: radial-gradient(circle, rgba(227, 225, 225, 1) 0%, rgb(119, 139, 161) 100%);
+}
+
+.imagen-fondo{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imgen1.png);
+    background-size: clamp(50vw, 50%, 100vw);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* redes sociales ----------------------------------------------  */
+
+header{
+    width: 100vw;
+    height: clamp(10vh, 150px, 15vh);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* logo---------------------------------------------- */
+#logo{
+    margin-left: 35%;
+    width: 15vw;
+    height: 25vw;
+}
+
+/* información del fondo-------------------------------- */
+.info-imagen{
+    margin-top: 2%;
+    padding-right: 30%;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-twitter{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(4vw, 5vw, 6vw);
+    height: clamp(2.5vw ,2.8vw, 3vw);
+    border-radius: 50%;
+    border-color: white;
+    border-style: groove;
+    border-width: 1.5px;
+    margin-right: 5%;
+}
+
+#info-i{
+    font-size: clamp(0.5vw, 1.3vw, 1.5vw);
+    color: white;
+}
+
+/* redes sociales------------------------------------------ */
+#redes{
+    font-size: clamp(10px, 1.5vw, 50px);
+    margin-right: 5%;
+    color: white;
+}
+
+.redes-sociales{
+    margin-top: 2%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociales img{
+    width: clamp(20px, 2.5vw, 40px);
+    height: clamp(20px, 2.5vw, 40px);
+}
+
+/* Contenido principal------------------------------------ */
+.contenido{
+    width: 100vw;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    width: 80%;
+    height: 100%;
+}
+
+/* aside -------------------------------------------------  */
+aside{
+    width: 20%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotacion{
+    width: 50%;
+    height: 54.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    rotate: 270deg;
+}
+
+.c-externo{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-interno{
+    width: 80%;
+    height: 80%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulos{
+    width: 1vw;
+    height: 1vw;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.linea1{
+    width: 1%;
+    height: 2%;
+    background-color: white;
+}
+
+#circulo1{
+    margin-bottom: 15%;
+    margin-right: -15%;
+    
+}
+
+#circulo2{
+    margin-top: 25%;
+    background-color: white;
+}
+
+#circulo3{
+    margin-bottom: 15%;
+    margin-left: -15%;
+}
+
+.linea2{
+    width: 1%;
+    height: 2%;
+    background-color: white;
+}
+
+nav{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.punto{
+    width: 3%;
+    height: 1.5%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.linea3{
+    width: 1%;
+    height: 7%;
+    background-color: white;
+}
+
+
+/* Pie de pagina-----------------------------------------  */
+
+footer{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#audio{
+    margin-left: 70px;
+    color: white;
+}
+
+#audio-input{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+#legal{
+    margin-right: 70px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
