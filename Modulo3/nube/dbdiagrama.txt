@@ -1,0 +1,58 @@
+table Calificaciones {
+  calificaciones_id number [primary key]
+  estudiante_id number
+  curso_id number
+  nota number
+}
+
+table EstudiantesCFP {
+  estudiante_id number [primary key]
+  nombre varchar2(100)
+  direccion varchar2(100)
+  telefono number
+  correo varchar2(100)
+  fecha_ingreso varchar2(100)
+}
+
+table InscripcionesCFP {
+  inscripcion_id number [primary key]
+  estudiante_id number
+  curso_id number
+}
+
+table Horario {
+  horario_id number [primary key]
+  curso_id number
+  dia varchar2(100)
+  horario_inicio varchar2(100)
+  horario_fin varchar2(100)
+  aula varchar2(100)
+}
+
+table Asignaciones {
+  asignacion_id number [primary key]
+  profesores_id number
+  curso_id number
+}
+
+table ProfesoresCFP {
+  profesor_id number [primary key]
+  nombre varchar2(100)
+  especialidad varchar2(100)
+  contacto varchar2(100)
+}
+
+table CursosCFP {
+  cursos number [primary key]
+  nombre varchar2(100)
+  descripcion varchar2(200)
+}
+
+Ref: Calificaciones.estudiante_id > EstudiantesCFP.estudiante_id
+
+Ref: CursosCFP.cursos < Calificaciones.curso_id
+Ref: CursosCFP.cursos < Asignaciones.curso_id
+Ref: CursosCFP.cursos < Horario.curso_id
+Ref: CursosCFP.cursos < InscripcionesCFP.curso_id
+
+Ref: ProfesoresCFP.profesor_id < Asignaciones.profesores_id
