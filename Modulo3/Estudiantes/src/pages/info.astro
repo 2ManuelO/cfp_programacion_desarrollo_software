@@ -1,0 +1,51 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Informarcion from "../../estudiantes.json";
+
+export interface estudiantes {
+    id: number;
+    nombre: string;
+    edad: number;
+    materiales: string;
+    cursos: string;
+    establecimiento: string;
+}
+
+const info = Informarcion as estudiantes;
+---
+
+<Layout title="Welcome to Astro.">
+    <main
+        class="w-full h-screen text-white flex flex-col items-center justify-center"
+    >
+        <table class="w-10/12 flex flex-col">
+            <caption class="mb-6 border-2 border-purple-400 text-xl font-bold">{info.nombre}</caption>
+            <thead class="w-full flex justify-center items-center border-2 border-purple-400">
+                <tr class="w-full flex flex-row justify-evenly">
+                    <th class="w-full text-center">Edad</th>
+                    <th class="w-full text-center">Cursos</th>
+                    <th class="w-full text-center">Materiales</th>
+                    <th class="w-full text-center">Establecimiento</th>
+                </tr>
+            </thead>
+
+            <tbody class="border-b-2 border-purple-400">
+                <tr class="w-full flex flex-row justify-evenly">
+                    <td class="w-full text-center border-l-2 border-purple-400">{info.edad} años</td>
+                    <td class="w-full text-center border-l-2 border-purple-400">{info.cursos}</td>
+                    <td class="w-full text-center border-l-2 border-purple-400">{info.materiales}</td>
+                    <td class="w-full text-center border-l-2 border-r-2 border-purple-400">{info.establecimiento}</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <!-- Contenido del pie de tabla -->
+            </tfoot>
+        </table>
+    </main>
+</Layout>
+
+<!-- <style>
+    .texto{
+        color: aliceblue;
+    }
+</style> -->
